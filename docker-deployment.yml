@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sit323-737-2023-t1-prac7p-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sit323-737-2023-t1-prac7p
+  template:
+    metadata:
+      labels:
+        app: sit323-737-2023-t1-prac7p
+    spec:
+      containers:
+        - name: sit323-737-2023-t1-prac7p-container
+          image: sit323-737-2023-t1-prac7p:1.0.0
+          ports:
+            - containerPort: 3000

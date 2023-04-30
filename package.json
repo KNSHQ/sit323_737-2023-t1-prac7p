@@ -1,0 +1,29 @@
+{
+  "name": "sit323_737-2023-t1-prac7p",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KNSHQ/sit323_737-2023-t1-prac7p.git"
+  },
+  "author": "Kanishk Rajvanshi (S222486026)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KNSHQ/sit323_737-2023-t1-prac7p/issues"
+  },
+  "homepage": "https://github.com/KNSHQ/sit323_737-2023-t1-prac7p#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "winston": "^3.8.2"
+  }
+}
