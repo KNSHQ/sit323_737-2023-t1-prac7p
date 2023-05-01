@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: sit323-737-2023-t1-prac7p-container
-          image: sit323-737-2023-t1-prac7p:1.0.0
+          image: knshq/sit323-737-2023-t1-prac7p:1.0.0
           ports:
             - containerPort: 3000
